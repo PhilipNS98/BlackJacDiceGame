@@ -4,8 +4,8 @@ import java.io.*;
 public class StudentPhoneNumberList{
     public static void main(String[] args) throws FileNotFoundException{
         Scanner scan = new Scanner(System.in);
-        Scanner inputP = new Scanner(new File("PhoneNumbers.txt"));
-        Scanner inputN = new Scanner(new File("PhoneNames.txt"));
+        Scanner inputP = new Scanner(new File("C:\\Users\\Phili\\OneDrive\\Skrivebord\\Dokumenter\\IntelliJ\\7. Arrays\\src\\PhoneNames.txt."));
+        Scanner inputN = new Scanner(new File("C:\\Users\\Phili\\OneDrive\\Skrivebord\\Dokumenter\\IntelliJ\\7. Arrays\\src\\PhoneNumbers.txt"));
 
         int[] phoneNumbers = new int[10];
         String[] phoneNames = new String[10];
